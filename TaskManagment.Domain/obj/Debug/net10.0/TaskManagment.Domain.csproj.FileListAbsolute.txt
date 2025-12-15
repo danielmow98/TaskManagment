@@ -1,0 +1,11 @@
+/Users/daniel/repos/TaskManagment/TaskManagment.Domain/bin/Debug/net10.0/TaskManagment.Domain.deps.json
+/Users/daniel/repos/TaskManagment/TaskManagment.Domain/bin/Debug/net10.0/TaskManagment.Domain.dll
+/Users/daniel/repos/TaskManagment/TaskManagment.Domain/bin/Debug/net10.0/TaskManagment.Domain.pdb
+/Users/daniel/repos/TaskManagment/TaskManagment.Domain/obj/Debug/net10.0/TaskManagment.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/daniel/repos/TaskManagment/TaskManagment.Domain/obj/Debug/net10.0/TaskManagment.Domain.AssemblyInfoInputs.cache
+/Users/daniel/repos/TaskManagment/TaskManagment.Domain/obj/Debug/net10.0/TaskManagment.Domain.AssemblyInfo.cs
+/Users/daniel/repos/TaskManagment/TaskManagment.Domain/obj/Debug/net10.0/TaskManagment.Domain.csproj.CoreCompileInputs.cache
+/Users/daniel/repos/TaskManagment/TaskManagment.Domain/obj/Debug/net10.0/TaskManagment.Domain.dll
+/Users/daniel/repos/TaskManagment/TaskManagment.Domain/obj/Debug/net10.0/refint/TaskManagment.Domain.dll
+/Users/daniel/repos/TaskManagment/TaskManagment.Domain/obj/Debug/net10.0/TaskManagment.Domain.pdb
+/Users/daniel/repos/TaskManagment/TaskManagment.Domain/obj/Debug/net10.0/ref/TaskManagment.Domain.dll
