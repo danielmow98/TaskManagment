@@ -1,6 +1,9 @@
+using TaskManagment.Domain.Entities;
+
 namespace TaskManagment.Application.Interfaces;
 
-public class ITaskRepository
+public interface ITaskRepository
 {
-    
+    Task<TaskItem?> GetByIdAsync(Guid id);
+    Task AddAsync(TaskItem task);
 }

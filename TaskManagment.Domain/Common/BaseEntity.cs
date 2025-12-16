@@ -1,6 +1,6 @@
 namespace TaskManagment.Domain.Common;
 
-public class BaseEntity
+public abstract class BaseEntity
 {
-    
+    public Guid Id { get; protected set; } = Guid.NewGuid();
 }

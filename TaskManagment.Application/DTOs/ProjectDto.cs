@@ -1,3 +1,6 @@
 namespace TaskManagment.Application.DTOs;
 
-public record ProjectDto();
+public record ProjectDto(
+    Guid Id,
+    string Name,
+    string Description);

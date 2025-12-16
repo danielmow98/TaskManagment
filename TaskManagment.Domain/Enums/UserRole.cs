@@ -1,6 +1,7 @@
 namespace TaskManagment.Domain.Enums;
 
-public class UserRole
+public enum UserRole
 {
-    
+    User = 1,
+    Admin = 2
 }
