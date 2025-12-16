@@ -2,6 +2,9 @@ using Microsoft.EntityFrameworkCore;
 using TaskManagment.Infrastructure.Persistance;
 using TaskManagment.Application.Interfaces;
 using TaskManagment.Infrastructure.Repositories;
+using TaskManagment.Application.Features.Projects.CreateProject;
+using TaskManagment.Application.Validation;
+using TaskManagment.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,8 +19,12 @@ builder.Services.AddScoped<ITaskRepository, TaskRepository>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IProjectRepository, ProjectRepository>();
 
+builder.Services.AddScoped<CreateProjectHandler>();
+builder.Services.AddScoped<CreateProjectValidator>();
+
 var app = builder.Build();
 
+app.UseMiddleware<ExceptionMiddleware>();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
