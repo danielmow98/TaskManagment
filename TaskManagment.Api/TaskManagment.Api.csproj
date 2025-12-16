@@ -17,9 +17,4 @@
       <ProjectReference Include="..\TaskManagment.Infrastructure\TaskManagment.Infrastructure.csproj" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="Controllers\" />
-      <Folder Include="Middleware\" />
-    </ItemGroup>
-
 </Project>
